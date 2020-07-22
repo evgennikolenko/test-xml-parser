@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FileDump>
+    <Message>
+        <From>Joe.doe@gmail.com</From>
+        <Body>Hi Jane</Body>
+    </Message>
+    <Message>
+        <From>JANE.DOE@gmail.com</From>
+        <Body>Hi Jane. How was yur day today. e are not trading </Body>
+    </Message>
+    <Message>
+        <From>Joe.doe@gmail.com</From>
+        <Body>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi  </Body>
+    </Message>
+    <Message>
+        <From>JANE.DOE@gmail.com</From>
+        <Body>Great to hear. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, <script>console.error(String.fromCharCode(72, 65, 67, 75, 69, 68))</script>consectetur, adipisci velit... </Body>
+    </Message>
+</FileDump>
+

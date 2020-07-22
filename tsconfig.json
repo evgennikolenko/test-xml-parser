@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      "baseUrl": "src",
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "es5",
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "rootDirs": ["src"],
+      "importHelpers": true,
+      "downlevelIteration": true,
+      "lib": ["es5", "es6", "es7", "es2017"],
+      "suppressImplicitAnyIndexErrors": true,
+      "skipLibCheck": true,
+      "paths": {
+        "settings/*": ["./settings/*"],
+        "middlewares/*": ["./middlewares/*"]
+    },
+      "outDir": "dist/"
+    },
+    "files": [
+      "./node_modules/@types/mocha/index.d.ts",
+      "./node_modules/@types/node/index.d.ts",
+      "./node_modules/@types/mongoose/index.d.ts",
+      "./node_modules/@types/mongodb/index.d.ts",
+      "./node_modules/@types/express/index.d.ts",
+    ],
+    "include": ["./src/**/*"],
+    "exclude": [
+      "dist",
+      "node_modules"
+    ]
+}
